@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B8501CD627142C9700FB69E8 /* check_mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8501CD527142C9700FB69E8 /* check_mark.swift */; };
 		B8501CD82714446200FB69E8 /* bmi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8501CD72714446200FB69E8 /* bmi.swift */; };
+		B8501CDA2714520C00FB69E8 /* workDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8501CD92714520C00FB69E8 /* workDays.swift */; };
 		CE02B52C27140BEB00861F3D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B52B27140BEB00861F3D /* main.swift */; };
 		CE02B53527140DC100861F3D /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B53427140DC100861F3D /* utils.swift */; };
 		CE02B5392714163A00861F3D /* errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B5382714163A00861F3D /* errors.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		B8501CD527142C9700FB69E8 /* check_mark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = check_mark.swift; sourceTree = "<group>"; };
 		B8501CD72714446200FB69E8 /* bmi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmi.swift; sourceTree = "<group>"; };
+		B8501CD92714520C00FB69E8 /* workDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workDays.swift; sourceTree = "<group>"; };
 		CE02B52827140BEB00861F3D /* swift_demo_T1000 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swift_demo_T1000; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE02B52B27140BEB00861F3D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CE02B53427140DC100861F3D /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				CE02B53C2714219000861F3D /* compute_salary.swift */,
 				B8501CD527142C9700FB69E8 /* check_mark.swift */,
 				B8501CD72714446200FB69E8 /* bmi.swift */,
+				B8501CD92714520C00FB69E8 /* workDays.swift */,
 			);
 			path = day1;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				CE02B53527140DC100861F3D /* utils.swift in Sources */,
 				CE02B5392714163A00861F3D /* errors.swift in Sources */,
 				CE02B53B271420A900861F3D /* analyze_marks.swift in Sources */,
+				B8501CDA2714520C00FB69E8 /* workDays.swift in Sources */,
 				CE02B53D2714219000861F3D /* compute_salary.swift in Sources */,
 				B8501CD82714446200FB69E8 /* bmi.swift in Sources */,
 			);
