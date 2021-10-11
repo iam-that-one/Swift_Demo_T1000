@@ -18,4 +18,4 @@ print("Enter Full mark:")
 let fullMark = Utils.readInt()
 
 var pct = (mark/Double(fullMark)) * 100
- print("PCT: \(pct)")
+ print("PCT: \(round(pct * 100) / 100)%")
