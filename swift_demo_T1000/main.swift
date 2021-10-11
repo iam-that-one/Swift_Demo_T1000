@@ -7,23 +7,8 @@
 
 import Foundation
 
-//for _ in 0...3{
-//let rand = Int.random(in: 0...10)
-//let rand2 = Int.random(in: 0...10)
-//let result = rand * rand2
-//print("What is \(rand) * \(rand2) ")
-//let ans = Utils.readInt()
-//if ans == result{
-//    print("Correct")
-//}else{
-//    print("Incorrect")
-//}
-//
-//}
 
 
-//let result = rand * rand2
-//print("What is \(rand) * \(rand2) ")
 var score = 0
 for _ in 0..<5{
     let rand = Int.random(in: 0...10)
@@ -37,6 +22,7 @@ for _ in 0..<5{
         print("Correct")
     }else{
         print("Incorrect")
+        print("The correct answer: \(roundedResult)")
     }
 }
 
