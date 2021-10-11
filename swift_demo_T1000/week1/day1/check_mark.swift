@@ -35,7 +35,7 @@ import Foundation
 //}else{
 //    print("fail")
 //}
-
+ 
 // switch-statment
 //switch pct{
 //case 85...:
