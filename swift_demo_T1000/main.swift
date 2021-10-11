@@ -12,22 +12,21 @@ import Foundation
 //let annualSalary = salary * 12
 //print("Annual Salary:", annualSalary)
 
-print("Enter student mark:")
-let mark = Utils.readDouble()
-print("Enter Full mark:")
-let fullMark = Utils.readInt()
+print("Enter weight:", terminator: "")
+var weight = Utils.readDouble()
+print("Enter height:", terminator: "")
+var height = Utils.readDouble()
+var denometor = pow(height/100, 2)
+var bmi = round(weight / denometor)
 
-var pct = (mark/Double(fullMark)) * 100
-print("PCT: \(round(pct * 100) / 100)%")
-if pct > 85{
-    print("Exellent")
-}else if pct > 75{
-    print("Very good")
-}else if pct > 65{
-    print("Goog")
+print("BMI: \(round(bmi * 100) / 100)")
+
+if bmi < 8.5 {
+    print("Under weight")
+}else if bmi < 25 {
+    print("Normal")
+}else if bmi < 30 {
+    print("over weight")
 }else{
-    print("Pass")
+    print("obese")
 }
- 
-
-
