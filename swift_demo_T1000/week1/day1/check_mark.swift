@@ -26,12 +26,24 @@ import Foundation
 //
 //var pct = (mark/Double(fullMark)) * 100
 //print("PCT: \(round(pct * 100) / 100)%")
-//if pct > 85{
+//if pct > 85 {
 //    print("Exellent")
-//}else if pct > 75{
+//}else if pct > 75 && pct < 85{
 //    print("Very good")
-//}else if pct > 65{
+//}else if pct > 65 && pct < 75{
 //    print("Goog")
 //}else{
-//    print("Pass")
+//    print("fail")
+//}
+
+// switch-statment
+//switch pct{
+//case 85...:
+//    print("Exellent")
+//case  75..<85:
+//    print("Very good")
+//case 65..<75:
+//    print("Goog")
+//default :
+//    print("fail")
 //}
